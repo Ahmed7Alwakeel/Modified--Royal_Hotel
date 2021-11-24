@@ -1,0 +1,463 @@
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    line-height: 24px;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    color: #777777;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar{
+    width: 12px;
+    color: blue;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background-color: grey;
+}
+
+ .header{
+    background-image: url(../img/banner_bg.jpg);
+    background-size: cover; 
+    position: relative; 
+    height: 700px;
+ } 
+ .lyr{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+    position: relative;
+} 
+.containeer{
+    width: 85%;
+    margin: auto;
+    
+}
+.containeeer{
+    width: 100%;
+    
+    
+}
+.navcustom{
+    height: 80px;
+    background-color: white;
+   
+    
+}
+
+.navcustoom{
+    height: 80px;
+    position: fixed;
+    z-index: 2;
+    
+    
+}
+
+
+.logo{
+    margin-right: 200px;
+    margin-left: 15px;
+}
+
+.nav-link{
+    color: black;
+    padding-top: 20px;
+    font-family:  "Poppins", sans-serif;
+    font-weight: 700;
+    color: #222222;
+    text-transform: uppercase;
+    font-size: 8pt;
+    margin-left: 10px;
+    
+   
+    
+}
+.navbar-collapse{
+    background-color: white;
+    width: 100%;
+    z-index: 2;
+}
+.collapse{
+    background-color: white;
+    z-index: 2;
+    width: 100%;
+    
+}
+
+.nav-link:hover{
+    color: rgb(164, 188, 238);
+    
+}
+.ul li {
+    margin-left: 5px;
+}
+
+
+i{
+    font-size: 20pt;
+    color: tomato;   
+    
+}
+
+.banner_content{
+    height: 300px;
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+    top: 200px;
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+.banner_content h6 {
+    font-size: 14px;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    font-weight: 400;
+}
+
+.banner_content h2 {
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 700;
+}
+.btu{
+    width: 150px;
+    height: 50px;
+    border-radius: 40px;
+    border: none;
+    background-color: yellow;
+    font-weight: 700;
+}
+
+.hotel-section{
+    margin-top: 150px;
+    text-align: center;
+    margin-bottom: 100px;
+   
+}
+.hotel-section h1{
+    color:black;
+    font-weight: 600;
+
+}
+.font-room{
+    margin-top: 50px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+   
+}
+.col-md-3{
+    overflow: hidden;
+}
+.font-room h3{
+    color: black;
+    font-size: 15pt;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.font-room h5{
+    color: rgb(20, 164, 212);
+    text-align: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.font-room img{
+    transition: all 1s;
+    cursor: pointer;
+}
+.font-room img:hover{
+    transform: scale(1.09);
+    transition: all 1s;
+    
+}
+.butroom{
+    position: absolute;
+    bottom: 100px;
+    left: 80px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    
+    border: none;
+    background-color: yellow;
+    font-weight: 700;
+}
+.facilities{
+    background-image: url(../img/facilites_bg.jpg);
+    background-size: cover;
+   
+}
+.lyr2{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(2, 2, 39, 0.763);
+}
+.royal{
+    margin-top: 120px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+.royal h1{
+    color: white;
+    font-weight: 600;
+}
+.box{
+    height: 200px;
+    width: 100%;
+    border-radius:10px;
+    background-color: rgba(255,255,255,.08);
+    border:1px solid grey;
+    padding: 5px;
+    margin-top: 20px;
+    
+}
+.box p{
+    padding: 20px;
+    color: white;
+}
+.box h5{ 
+    padding: 20px 0 0 40px;
+    color: white;
+    font-weight: 600;
+}
+
+.box-padding2{
+    padding-bottom: 70px;
+   
+} 
+
+
+.aboutus-pa{
+    margin-top: 150px;
+
+}
+.aboutus-pa h1{
+    color: rgba(0, 0, 0, 0.88);
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.butus{
+    background-color: rgba(0, 0, 0, 0.88);
+    color: white;
+    width: 250px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    font-weight: 600;
+}
+.aboutus-im{
+    margin-top: 110px;
+    margin-bottom: 250px;
+  
+}
+.aboutus-im img{
+    height: 90%;
+    width: 100%;
+}
+
+.cli{
+    background-color: rgba(0,0,0,.03);
+   
+}
+
+.client{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.client h1{
+    color:  rgba(0, 0, 0, 0.88);
+    font-weight: 700;
+    margin-top: 100px;
+}
+.client p{
+    margin-bottom: 50px;
+}
+
+.owl-carousel{
+    background-color: white;
+    cursor: pointer;
+}
+
+.owl-carousel p{
+   margin-left: 10px;
+   margin-top: 30px;
+}
+.owl-carousel a{
+    margin-left: 10px;
+    text-decoration: none;
+    color:black;
+    font-weight: 700;
+    font-size: 12pt;
+    transition: 1s all;
+
+ }
+ .owl-carousel a:hover{
+    margin-left: 10px;
+   
+    text-decoration: none;
+    color:blue;
+    font-weight: 700;
+    font-size: 12pt;
+    transition: 1s all;
+
+ }
+ .fa-star{
+     font-size: 8pt;
+     margin-top: 2px;
+     color: gold;
+     padding-left: 5px;
+ }
+ .boxx{
+     height: 200px;
+     background-color: rgba(0,0,0,.03);
+     width: 100%;
+ }
+ .blogs h1{
+    color:  rgba(0, 0, 0, 0.88);
+    font-weight: 700;
+    margin-top: 100px;
+ }
+ .blogs p{
+    margin-bottom: 80px;
+}
+.blog{
+    margin-bottom: 100px;
+}
+
+.blog h5{
+    color:  rgba(0, 0, 0, 0.88);
+    font-weight: 700;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.blog h5:hover{
+   color: rgb(66, 138, 231);
+   transition: 1s all;
+}
+.blog h6{
+    color:  rgba(0, 0, 0, 0.88);
+    margin-bottom: 30px;
+    
+}
+.blog-item{
+    overflow: hidden;
+    
+}
+.blog-item img{
+  transition: all 1s;
+}
+.blog-item img:hover{
+    transform: rotate(5deg) scale(1.1);
+    transition: all 1s;
+   
+}
+.footer{
+    width: 100%;
+    background-color: #04091e;
+}
+
+.AGENCY h3{
+    color: white;
+    font-weight: 700;
+    font-size: 13pt;
+    margin: 50px;
+    margin-top: 100px;
+}
+.AGENCY p{
+    margin-left: 50px;
+   
+}
+ul{
+    margin-left: 10px;
+}
+ul li a{
+    color: grey;
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.col-4{
+    float: left;
+}
+.form-control{
+    border: 1px solid grey;
+    border-radius: 0;
+    background-color:#04091e;
+     width: 70%;
+     margin-left: 50px;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input{
+    background-color:#04091e;
+    border: none;
+    float: left;
+}
+.butf{
+    float: left;
+    border: 0;
+    width: 38px;
+    height: 38px;
+    background-color:  yellow;
+    
+}
+.fa-telegram-plane{
+    font-size: 15pt;
+    color: rgb(247, 241, 230);
+   
+}
+.photos{
+    margin-right: 20px;
+    margin-left: 40px;
+}
+.photos img{
+    margin-left: 2px;
+    margin-bottom: 7px;
+}
+.tinny-bar{
+    background-color: grey;
+    width: 93%;
+    height: 1px;
+    margin: 20px 50px 50px 60px;
+   
+}
+.fa-heart{
+    color: grey;
+    font-size: 11pt;
+}
+.copy p{
+    text-align: center;
+    /* margin-left: 50px; */
+}
+.copy a{
+    color: rgb(129, 129, 14);
+    text-decoration: none;
+    font-size: 12pt;
+}
+.icons i{
+    cursor: pointer;
+    color: grey;
+    font-size: 15pt;
+    padding-right: 15px;
+    margin-bottom: 150px;
+}
+.icons i:hover{
+    cursor: pointer;
+    color: rgb(129, 129, 14);
+    font-size: 15pt;
+    padding-right: 15px;
+    margin-bottom: 150px;
+}
+
