@@ -425,6 +425,10 @@ input{
 .photos img{
     margin-left: 2px;
     margin-bottom: 7px;
+    transition: 1s all;
+}
+.photos img:hover{
+   transform: scale(1.1);
 }
 .tinny-bar{
     background-color: grey;
